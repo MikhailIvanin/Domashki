@@ -23,11 +23,12 @@ let secondCar =confirm("в тебе є друге авто?");
 let child =confirm("в тебе є діти?");
 let crash =confirm("чи були в тебе ДТП?");
 let aaaaaa =confirm("чи є у твоему імені літера \"А\"?");
-const a = A;
-let preDecision = country && (!crash || age && education && child) || aaaaaa;
-if (preDecision = true)
-    decision = "true"
-else
-    decision = "false";
+const a = "A";
+let preDecision = (country && (!crash || age && education && child)) || aaaaaa;
+let decision = null;
+if (preDecision = true){
+    decision = "true"}
+else{
+    decision = "false"};
 let decision1 = "Статус рішення -" + (" ") + decision + (" ") + "З повагою, страхова компанія" + (" ") + a;
 alert(decision1);
