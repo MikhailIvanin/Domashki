@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML & CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+<div class="page">
+<ul class="bar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Gallery</a>
+    <ul class="sub-Gallery">
+        <li><a href="#">Gallery1</a></li>
+        <li><a href="#">Gallery2</a></li>
+        <li><a href="#">Gallery3</a>
+            <ul class="photo">
+                <li><a href="#">Photo1</a></li>
+                <li><a href="#">Photo2</a></li>
+                <li><a href="#">Photo3</a></li>
+                <li><a href="#">Photo4</a>
+                    <ul class="picture">
+                        <li><a href="#">picture1</a></li>
+                        <li><a href="#">picture2</a></li>
+                        <li><a href="#">picture3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">Gallery4</a></li>
+    </ul>
+    </li>
+    <li><a href="#">Contacts</a></li>
+    <li><a href="#">About Us</a></li>
+    <li class="support"><a href="#">Support</a></li>
+</ul>
+<div class="img"></div>
+
+<div class="form-section">
+    <form action="#" method="POST">
+    <div class="form-name">REGISTRATION FORM</div>
+    <div class="form-div">
+    <label class="after-red" for="name">Name</label>
+    <input type="text" required placeholder="Name"  name="name" id="name">
+</div>
+    <div class="form-div">
+    <label class="after-red" for="email">Email</label>
+        <input type="text" required placeholder="Email"  name="email" id="email">
+    </div>
+    <div class="form-div">
+    <label class="after-red" for="login">Login</label>
+        <input type="text" required placeholder="Login"  name="login" id="login">
+    </div>
+    <div class="form-div">
+<label class="after-red" for="password">Password</label>
+    <input type="text" required placeholder="Password"  name="password" id="password">
+    </div>
+    <div class="form-div">
+        <label id="avatar">Avatar</label>
+        <input type="file" id="avatar">
+    </div>
+    <div class="form-div">
+            <label for="country">Country</label>
+            <select id="country" name="contry">
+                <option selected value="UA">Ukraine</option>
+                <option value="UK">England</option>
+                <option value="PL">Poland</option>
+            </select>
+        </div>
+    <div class="form-div">
+        <label>Gender</label>
+        <span class="radio-group">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+        </span>
+</div>
+    <div class="form-div">
+        <label>Grade</label>
+            <span class="checkbox-group">
+            <label for="junior">Junior</label>
+            <input type="checkbox" name="junior" id="junior">
+            <label for="middle">Middle</label>
+            <input type="checkbox" name="middle" id="middle">
+            <label for="senior">Senior</label>
+            <input type="checkbox" name="senior" id="senior">
+                </span>
+        </div>
+    <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+ </div>
+<footer>
+<ul class="footer">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Gallery</a>
+    <li><a href="#">Contacts</a></li>
+    <li><a href="#">About Us</a></li>
+</ul>
+</footer>
+</div>
+</body>
+</html>

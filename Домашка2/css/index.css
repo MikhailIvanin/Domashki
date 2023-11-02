@@ -1,0 +1,43 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.all{
+    width: 786px;
+    margin: 0 auto;
+}
+.topic{
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.tag {
+  background-color: gray;
+    width: 55px;
+    margin: 15px 0px 20px 0px;
+    padding: 5px;
+}
+h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+a{
+    color: rgb(74,31,165);
+    text-decoration: none;
+    font-weight: bold;
+}
+.start{
+    padding: 10px;
+    border-left: 4px solid;
+    border-left-color: rgb(74,31,165);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+}
+p{
+    margin: 15px 0px 15px 0px;
+    font-style: italic;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}

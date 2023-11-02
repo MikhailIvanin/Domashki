@@ -1,0 +1,144 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+.bar li{
+    display: inline-block;
+    border-left: 1px solid white;
+    font-size: 16px;
+    position: relative;
+}
+.bar li:first-child,
+.bar li:last-child{
+    border: none;
+}
+.bar,
+.sub-Gallery,
+.photo,
+.picture,
+.footer{
+    background-color: #623bed;
+    font-size: 0;
+    padding-inline-start: 0px;
+}
+.bar li:hover{
+    background-color: #1739a9;
+}
+
+.footer li a:hover{
+    text-decoration: underline;
+}
+.bar li a,
+.footer li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.bar .support{
+    float: right;
+}
+.bar .sub-Gallery{
+    padding-inline-start: 0px;
+    position: absolute;
+}
+.bar .sub-Gallery a{
+    border: none;
+}
+.bar .sub-Gallery li{
+    border: none;
+    width: 100%;
+}
+.bar .sub-Gallery,
+.bar .sub-Gallery .photo,
+.bar .sub-Gallery .photo .picture {
+    display: none;
+}
+.bar li:hover>.sub-Gallery,
+.bar .sub-Gallery li:hover>.photo,
+.bar .sub-Gallery .photo li:hover>.picture{
+    display: block;
+}
+.bar .sub-Gallery .photo,
+.bar .sub-Gallery .photo .picture{
+    padding-inline-start: 0px;
+    position: absolute;
+    top:0;
+    left:100%;
+}
+.img{
+    height: 70vh;
+    background: url("./img/visuals-001065631300-SGqz5u-original.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-name{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 25px;
+    text-align: center;
+}
+.after-red:after{
+    color: red;
+    content: "*";
+    text-align: center;
+}
+.form-section .form-div>label{
+    display: inline-block;
+    width: 45%;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: 600;
+}
+>.form-section{
+    width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radio-group,
+.checkbox-group{
+    font-weight: 600;
+}
+.submit{
+    font-weight: 600;
+    display: inline-block;
+    text-align: right;
+    width: 49.5%;
+
+}
+.form-div{
+    margin-bottom: 10px;
+}
+.footer li {
+    display: inline-block;
+    font-size: 16px;
+}
+.footer{
+   margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-color: #623bed;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+input:focus{
+    outline-color: #1739a9;
+}
+.submit input{
+    border-color: #623bed;
+    background-color:#623bed;;
+
+    padding: 5px 10px;
+    border: 1px;
+}
+.submit input:hover{
+    color: white;
+}
