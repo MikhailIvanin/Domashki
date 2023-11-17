@@ -14,9 +14,14 @@ function add() {
 }
 
 function change(uuid) {
-    document.getElementById(`title-${uuid}`).textContent = prompt('change item');
+    const title = document.getElementById(`title-${uuid}`).innerText;
+    document.getElementById(`title-${uuid}`).textContent = prompt('change item' , `${title}`)
 }
 
 function remove(uuid) {
-    document.getElementById(`item-${uuid}`).remove();
+    const decision = confirm('Are you sure?');
+    if (decision) {
+        document.getElementById(`item-${uuid}`).remove();
+    }
 }
+
